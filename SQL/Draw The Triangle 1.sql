@@ -1,1 +1,0 @@
-select rpad('*', n,' *') from (select rownum n from dual connect by level <= 40 order by rownum desc) where mod(n,2) = 0;
