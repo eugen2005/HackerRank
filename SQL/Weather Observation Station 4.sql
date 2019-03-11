@@ -1,1 +1,0 @@
-select count(city) - count(distinct city) cny from station;

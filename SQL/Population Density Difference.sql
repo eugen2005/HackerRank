@@ -1,1 +1,0 @@
-select max(population) - min(population) as difference from city;
